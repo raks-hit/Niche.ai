@@ -31,8 +31,8 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "resolutions": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@toast-ui/react-editor/react": "17.0.1",
+    "@toast-ui/react-editor/react-dom": "17.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
