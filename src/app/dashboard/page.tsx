@@ -4,7 +4,7 @@ import SearchSection from './_components/SearchSection'
 import Header from './_components/Header'
 import TemplateListSection from './_components/TemplateListSection'
 import { useState } from 'react'
-function page() {
+function Page() {
   const [userSearchInput,setUserSearchInput]=useState<string>()
   return (
     <div>
@@ -15,4 +15,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
