@@ -40,7 +40,7 @@ const path=usePathname()
       </div>
      <div className='mt-8'>
       { MenuList.map((menu,index)=>(
-        <div className={`flex gap-2 mb-2 p-3 hover:bg-primary hover:text-white rounded-lg cursor-pointer items-center 
+        <div key={index} className={`flex gap-2 mb-2 p-3 hover:bg-primary hover:text-white rounded-lg cursor-pointer items-center 
         ${path==menu.path&& `bg-primary text-white`}`}>
           <menu.icon/>
           <h2>{menu.name}</h2>
